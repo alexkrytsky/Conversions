@@ -1,0 +1,45 @@
+<!-- Conversions project
+Author: Alex Krytskyi
+IT207
+Date: 10/2/17 -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Conversions</title>
+
+    <link rel="stylesheet" href="styles-conversion.css">
+  </head>
+  <body onload="initiateButtons()">
+    <h1>Welcome to my conversion page!</h1>
+    <div id="welcome">
+
+    </div>
+    <div class="center">
+      <button type="button" name="button" id="greeting" class="button button1" onclick="greeting()">Display Greeting</button>
+
+      <button type="button" name="button" id="personalGreeting" class="button button2" onclick="personalGreeting()" >Display Personal Greeting</button>
+
+      <button type="button" name="button" id="celFahr" class="button button3" onclick="convertCFHelper()">Convert Celsius to Fahrenheit</button>
+
+      <button type="button" name="button" id="fahrCel" class="button button4">Convert Fahrenheit to Celsius</button>
+      <br>
+      <button type="button " name="button" id="weight" class="button button5">Convert Weight</button>
+
+
+      <button type="button" name="button" id="height" class="button button1">Convert Height</button>
+
+      <button type="button" name="button" id="square" class="button button2">Calculate Square</button>
+
+      <button type="button" name="button" id="bmi" class="button button3">Calculate BMI</button>
+    </div>
+
+    <div id="answer"><h2 id="result"></h2></div>
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+  </body>
+
+</html>
